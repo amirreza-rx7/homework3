@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog box</title>
+    <style>
+        .mainDialog {
+            display: grid;
+            grid-template-columns: 40px auto;
+            width: 400px;
+            margin: 0 auto;
+            height: auto;
+        }
+
+        .paragraph {
+            padding: 20px;
+            display: flex;
+            background-color: black;
+            border-radius: 10px;
+        }
+        p{
+            color: white;
+        }
+
+        .Triangle {
+
+            width: 0;
+            height: 0;
+            margin: 0;
+            border-top: 50px solid transparent;
+            border-right: 100px solid black;
+            border-bottom: 50px solid transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainDialog">
+        <div class="Triangle"></div>
+        <div class="paragraph">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim luctus ex a accumsan. Maecenas
+                velit augue, laoreet et ipsum eu, aliquam pharetra enim. Nunc cursus pharetra sapien sit amet maximus.
+                Vivamus accumsan mi sed sapien consequat, et mattis est faucibus. </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

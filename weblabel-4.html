@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web label</title>
+    <style>
+        .container {
+            width: 250px;
+            height: 250px;
+            position: relative;
+            background-color: #EFF7FA;
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+
+        .corner {
+            width: 0;
+            height: 0;
+            background-color: burlywood;
+            border-top: 70px solid #FD5A56;
+            border-right: 70px solid #EFF7FA;
+            border-top-left-radius: 10px;
+        }
+
+        .corner span {
+            position: absolute;
+
+            top: 20px;
+            width: 10px;
+            left: 5px;
+            text-align: center;
+            font-size: 16px;
+            font-family: arial;
+            transform: rotate(-45deg);
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="corner"><span>new </span></div>
+    </div>
+</body>
+
+</html>

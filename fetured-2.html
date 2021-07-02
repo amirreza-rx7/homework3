@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured</title>
+    <style>
+        body {
+            height: 100vh;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: auto auto auto;
+            border: 1px solid lightgrey;
+            width: 700px;
+            margin: 0 auto;
+            /* gap: 10px; */
+        }
+        .header div{
+            margin: 10px;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            /* text-align: center; */
+            align-items: center;
+            border-top: 1px solid lightgrey;
+            border-bottom: 1px solid lightgrey;
+            padding: 15px ;
+        }
+        .header{
+            text-align: center;
+            /* margin: 10px; */
+            background-color: #F7F7F7;
+           
+           
+        }
+        footer{
+            text-align: center;
+            /* margin: 10px; */
+            background-color: #F7F7F7;
+          
+        }
+        .section input{
+            background-color: #0B6BFF;
+            color: white;
+            border-radius: 3px;
+            border:  transparent;
+        }
+        footer div{
+            margin: 10px;
+            color: #636060;
+        }
+        input{
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div>Featured</div>
+        </div >
+        <div class="section"><b>special title treatment</b>
+            <p>with supporting text below as a natrual lead-in to additional content</p>
+            <input type="submit" value="go somewhere">
+        </div>
+        
+        <footer>
+            <div>2 days ago</div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
